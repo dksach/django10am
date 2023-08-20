@@ -1,0 +1,9 @@
+{% extends 'layouts.html' %}
+{% block content %}
+    <h1> This is contact page <h1>
+    <hr>
+    {% for name in users %}
+        <li>{{name}}</li>
+        {% endfor %}
+    <p>..............................................</p>
+{% endblock %}      

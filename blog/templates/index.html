@@ -1,0 +1,11 @@
+{% extends 'layouts.html' %}
+{% block content %}
+    <h1> This is home page <h1>
+    <hr>
+    <p>..............................................</p>
+    <ul>
+        {% for name in users %}
+        <li>{{name}}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}      

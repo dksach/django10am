@@ -1,0 +1,9 @@
+{% extends 'layouts.html' %}
+{% block content %}
+    <h1>this is a address page </h1>
+    <ul>
+    {% for x in users %}
+        <li>{{x}}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
